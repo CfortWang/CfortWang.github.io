@@ -2,9 +2,44 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://www.cfort.cn/schedule/index.html</loc>
+    
+    <lastmod>2017-11-26T02:13:12.027Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.cfort.cn/archives/index.html</loc>
+    
+    <lastmod>2017-11-26T02:12:48.614Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.cfort.cn/about/index.html</loc>
+    
+    <lastmod>2017-11-26T02:12:11.525Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.cfort.cn/categories/index.html</loc>
+    
+    <lastmod>2017-11-26T02:11:57.989Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://www.cfort.cn/2017/11/26/mouseenter-mouseleave%E4%B8%8Emouseover-mouseout%E7%9A%84%E5%8C%BA%E5%88%AB/</loc>
     
-    <lastmod>2017-11-26T01:38:56.627Z</lastmod>
+    <lastmod>2017-11-26T02:07:18.994Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.cfort.cn/tags/index.html</loc>
+    
+    <lastmod>2017-11-26T02:05:39.247Z</lastmod>
     
   </url>
   
