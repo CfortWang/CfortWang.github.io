@@ -27,11 +27,11 @@ namespace Emojione;
  */
 
 define('DISQUS_PUBKEY', 'E8Uh5l5fHZ6gD8U3KycjAIAk46f68Zw7C6eW8WSjZvCLXebZ7p0r1yrYDrLilk2F');
-define('DISQUS_USERNAME', '');
-define('DISQUS_EMAIL', '');
-define('DISQUS_PASSWORD', '');
-define('DISQUS_WEBSITE', '');
-define('DISQUS_SHORTNAME', '');
+define('DISQUS_USERNAME', 'wangcfort');
+define('DISQUS_EMAIL', 'cfortwang@gmail.com');
+define('DISQUS_PASSWORD', 'wkh0.00.00.0+-+-');
+define('DISQUS_WEBSITE', 'http://cfort.cn');
+define('DISQUS_SHORTNAME', 'cfortwang');
 define('DISQUS_APPROVED', true);
 
 /*
