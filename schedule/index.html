@@ -5,7 +5,7 @@
   
 
 
-<html class="theme-next pisces use-motion" lang="zh-Hans">
+<html class="theme-next mist use-motion" lang="zh-Hans">
 <head>
   <meta charset="UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -89,7 +89,7 @@
   var NexT = window.NexT || {};
   var CONFIG = {
     root: '/',
-    scheme: 'Pisces',
+    scheme: 'Mist',
     version: '5.1.2',
     sidebar: {"position":"left","display":"post","offset":12,"offset_float":12,"b2t":false,"scrollpercent":false,"onmobile":false},
     fancybox: true,
@@ -472,12 +472,14 @@
 
     <footer id="footer" class="footer">
       <div class="footer-inner">
-        <div class="copyright" >
+        ﻿<script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+<div class="copyright" >
   
   &copy; 
   <span itemprop="copyrightYear">2017</span>
   <span class="with-love">
-    <i class="fa fa-heart"></i>
+    <!--<i class="fa fa-heart"></i>-->
+    <i class="fa fa-superpowers"></i>
   </span>
   <span class="author" itemprop="copyrightHolder">CfortWang</span>
 
@@ -485,11 +487,34 @@
 </div>
 
 
+  
+  <!--新代码-->
+  
+
+  <div class="powered-by">
+<i class="fa fa-user"></i><span id="busuanzi_container_site_uv">
+  访问量:<span id="busuanzi_value_site_uv"></span>
+</span>
+</div>
+  
+  <!--原代码，已注释
   <div class="powered-by">访问 <a class="theme-link" href="https://github.com/CfortWang">Github</a> </div>
+   -->
 
   <span class="post-meta-divider">|</span>
+  
 
-  <div class="theme-info">小尾巴 &mdash; 弱鸡小民皇</div>
+  <!--新代码-->
+  <div class="theme-info">
+  <div class="powered-by"></div>
+  <i class="fa fa-pencil"></i>
+  <span class="post-count">博客全站共78字</span>
+</div>
+
+  <!--原代码，已注释
+  <div class="theme-info">小尾巴 &mdash; footer.tail</div>
+   -->
+
 
 
         
@@ -532,6 +557,8 @@
   
 
 
+  
+
 
 
 
@@ -560,6 +587,9 @@
   
   <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
 
+  
+  <script type="text/javascript" src="/lib/canvas-nest/canvas-nest.min.js"></script>
+
 
   
 
@@ -572,13 +602,6 @@
 
   
   
-
-
-  <script type="text/javascript" src="/js/src/affix.js?v=5.1.2"></script>
-
-  <script type="text/javascript" src="/js/src/schemes/pisces.js?v=5.1.2"></script>
-
-
 
   <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.2"></script>
 <script type="text/javascript" src="/js/src/post-details.js?v=5.1.2"></script>
