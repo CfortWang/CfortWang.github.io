@@ -71,19 +71,19 @@
 
 
 
-<meta name="description" content="定义在一个对象上触发某类事件，如果该对象定义了此事件的处理程序，那么此事件就会调用这个处理程序。如果该对象上没有定义此事件处理程序或者事件返回true，那么这个事件会向这个对象的父级对象传播，从里到外（包括父级对象的同类对象），直至它被处理或者它到达了对象层次的最顶层。这么听起来可能有些难以理解，可以换种方式来看。一个气泡在一片湖水中产生，由于气压的作用不断往上升，在这个过程中，气泡就相当于jQu">
+<meta name="description" content="定义 在一个对象上触发某类事件，如果该对象定义了此事件的处理程序，那么此事件就会调用这个处理程序。如果该对象上没有定义此事件处理程序或者事件返回true，那么这个事件会向这个对象的父级对象传播，从里到外（包括父级对象的同类对象），直至它被处理或者它到达了对象层次的最顶层。  这么听起来可能有些难以理解，可以换种方式来看。一个气泡在一片湖水中产生，由于气压的作用不断往上升，在这个过程中，气泡就相当于">
 <meta name="keywords" content="Jquery,前端">
 <meta property="og:type" content="article">
 <meta property="og:title" content="jQuery事件冒泡">
 <meta property="og:url" content="http://www.cfort.cn/2017/09/26/jQuery事件冒泡/index.html">
 <meta property="og:site_name" content="CfortWang&#39;s Blog">
-<meta property="og:description" content="定义在一个对象上触发某类事件，如果该对象定义了此事件的处理程序，那么此事件就会调用这个处理程序。如果该对象上没有定义此事件处理程序或者事件返回true，那么这个事件会向这个对象的父级对象传播，从里到外（包括父级对象的同类对象），直至它被处理或者它到达了对象层次的最顶层。这么听起来可能有些难以理解，可以换种方式来看。一个气泡在一片湖水中产生，由于气压的作用不断往上升，在这个过程中，气泡就相当于jQu">
+<meta property="og:description" content="定义 在一个对象上触发某类事件，如果该对象定义了此事件的处理程序，那么此事件就会调用这个处理程序。如果该对象上没有定义此事件处理程序或者事件返回true，那么这个事件会向这个对象的父级对象传播，从里到外（包括父级对象的同类对象），直至它被处理或者它到达了对象层次的最顶层。  这么听起来可能有些难以理解，可以换种方式来看。一个气泡在一片湖水中产生，由于气压的作用不断往上升，在这个过程中，气泡就相当于">
 <meta property="og:locale" content="zh-Hans">
 <meta property="og:image" content="https://raw.githubusercontent.com/CfortWang/CfortWang.github.io/master/images/1.png">
-<meta property="og:updated_time" content="2017-11-30T08:02:42.218Z">
+<meta property="og:updated_time" content="2017-11-30T08:21:12.558Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="jQuery事件冒泡">
-<meta name="twitter:description" content="定义在一个对象上触发某类事件，如果该对象定义了此事件的处理程序，那么此事件就会调用这个处理程序。如果该对象上没有定义此事件处理程序或者事件返回true，那么这个事件会向这个对象的父级对象传播，从里到外（包括父级对象的同类对象），直至它被处理或者它到达了对象层次的最顶层。这么听起来可能有些难以理解，可以换种方式来看。一个气泡在一片湖水中产生，由于气压的作用不断往上升，在这个过程中，气泡就相当于jQu">
+<meta name="twitter:description" content="定义 在一个对象上触发某类事件，如果该对象定义了此事件的处理程序，那么此事件就会调用这个处理程序。如果该对象上没有定义此事件处理程序或者事件返回true，那么这个事件会向这个对象的父级对象传播，从里到外（包括父级对象的同类对象），直至它被处理或者它到达了对象层次的最顶层。  这么听起来可能有些难以理解，可以换种方式来看。一个气泡在一片湖水中产生，由于气压的作用不断往上升，在这个过程中，气泡就相当于">
 <meta name="twitter:image" content="https://raw.githubusercontent.com/CfortWang/CfortWang.github.io/master/images/1.png">
 
 
@@ -443,7 +443,10 @@
       
 
       
-        <h2 id="定义"><a href="#定义" class="headerlink" title="定义"></a>定义</h2><p>在一个对象上触发某类事件，如果该对象定义了此事件的处理程序，那么此事件就会调用这个处理程序。如果该对象上没有定义此事件处理程序或者事件返回true，那么这个事件会向这个对象的父级对象传播，从里到外（包括父级对象的同类对象），直至它被处理或者它到达了对象层次的最顶层。<br>这么听起来可能有些难以理解，可以换种方式来看。一个气泡在一片湖水中产生，由于气压的作用不断往上升，在这个过程中，气泡就相当于jQuery事件，而湖水则相当于整个dom树。事件从dom树的底层向上层层传递，直至传递到dom的根节点。</p>
+        <h2 id="定义"><a href="#定义" class="headerlink" title="定义"></a>定义</h2><blockquote>
+<p>在一个对象上触发某类事件，如果该对象定义了此事件的处理程序，那么此事件就会调用这个处理程序。如果该对象上没有定义此事件处理程序或者事件返回true，那么这个事件会向这个对象的父级对象传播，从里到外（包括父级对象的同类对象），直至它被处理或者它到达了对象层次的最顶层。</p>
+</blockquote>
+<p>这么听起来可能有些难以理解，可以换种方式来看。一个气泡在一片湖水中产生，由于气压的作用不断往上升，在这个过程中，气泡就相当于jQuery事件，而湖水则相当于整个dom树。事件从dom树的底层向上层层传递，直至传递到dom的根节点。</p>
 <h2 id="实例"><a href="#实例" class="headerlink" title="实例"></a>实例</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div></pre></td><td class="code"><pre><div class="line">&lt;div class=<span class="string">"mover"</span>&gt;</div><div class="line">	&lt;p&gt;鼠标进入p标签次数：&lt;/p&gt;</div><div class="line">	&lt;p&gt;鼠标进入div次数：&lt;/p&gt;</div><div class="line">&lt;/div&gt;</div><div class="line">&lt;script <span class="built_in">type</span>=<span class="string">"text/javascript"</span>&gt;</div><div class="line">        var n = 0, m = 0;</div><div class="line">	$(<span class="string">'.mover p:first'</span>).mouseover( <span class="function"><span class="title">function</span></span>() &#123;</div><div class="line">		$(this).html(<span class="string">'鼠标进入p标签次数：'</span> + (++n));</div><div class="line">	&#125;)</div><div class="line">	$(<span class="string">'.mover'</span>).mouseover( <span class="function"><span class="title">function</span></span>() &#123;</div><div class="line">		$(<span class="string">'.mover p:eq(1)'</span>).html(<span class="string">'鼠标进入div标签次数：'</span> + (++m));</div><div class="line">	&#125;)</div><div class="line">&lt;/script&gt;</div></pre></td></tr></table></figure>
 <p>上面这段代码为div元素和第一个p元素都绑定了一个mouseover事件，当鼠标移动到div和p元素上方时都会触发计数，当鼠标由上至下横穿div元素一次时，代码运行结果如图：<br><img src="https://raw.githubusercontent.com/CfortWang/CfortWang.github.io/master/images/1.png" alt=""><br>按照普通的思维，鼠标进入div和p各一次，运行结果应该都是1，而造成这种奇特运行结果的原因便是事件冒泡，jQuery的mouseover事件支持冒泡处理，当鼠标横穿整个div时，p元素绑定的mouseover事件只触发一次，而div元素绑定的mouseover事件却触发了5次，由于事件的冒泡机制，div元素的任何子元素都能触发mouseover事件。如果给他们绑定的事件是mouseenter就不会出现这样的结果，与mouseover时间一样支持jQuery冒泡处理的时间还有许多，比如mouseout、focusin、focusout等，这些事件在使用中需要特别注意。</p>
 <h2 id="如何阻止事件冒泡"><a href="#如何阻止事件冒泡" class="headerlink" title="如何阻止事件冒泡"></a>如何阻止事件冒泡</h2>
