@@ -2,6 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://www.cfort.cn/2017/09/26/jQuery%E4%BA%8B%E4%BB%B6%E5%86%92%E6%B3%A1/</loc>
+    
+    <lastmod>2017-11-30T07:54:08.479Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.cfort.cn/2017/11/27/hello-world/</loc>
+    
+    <lastmod>2017-11-30T07:02:22.286Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://www.cfort.cn/404.html</loc>
     
     <lastmod>2017-11-28T11:45:40.922Z</lastmod>
@@ -33,13 +47,6 @@
     <loc>http://www.cfort.cn/about/index.html</loc>
     
     <lastmod>2017-11-28T11:16:10.682Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://www.cfort.cn/2017/11/27/hello-world/</loc>
-    
-    <lastmod>2017-11-27T13:55:53.242Z</lastmod>
     
   </url>
   
