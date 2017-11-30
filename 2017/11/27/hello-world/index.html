@@ -341,17 +341,6 @@
 
           
             
-              <span class="post-comments-count">
-                <span class="post-meta-divider">|</span>
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-comment-o"></i>
-                </span>
-                <a href="/2017/11/27/hello-world/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count disqus-comment-count"
-                        data-disqus-identifier="2017/11/27/hello-world/" itemprop="commentCount"></span>
-                </a>
-              </span>
-            
           
 
           
@@ -533,6 +522,44 @@
 
     <div class="post-spread">
       
+        ﻿<!--MOB SHARE BEGIN-->
+<div class="-hoofoo-share-title">分享到：</div>
+<div class="-hoofoo-share-buttons">
+    <div class="-mob-share-weibo -hoofoo-share-weibo -hoofoo-share-ui-button"><i class="fa fa-weibo" aria-hidden="true"></i></div>
+    <div class="-mob-share-weixin -hoofoo-share-weixin -hoofoo-share-ui-button"><i class="fa fa-weixin" aria-hidden="true"></i></div>
+    <div class="-mob-share-qq -hoofoo-share-qq -hoofoo-share-ui-button"><i class="fa fa-qq" aria-hidden="true"></i></div>
+    <div class="-mob-share-qzone -hoofoo-share-qzone -hoofoo-share-ui-button"><i class="fa fa-star-o" aria-hidden="true"></i></div>
+    <div class="-mob-share-facebook -hoofoo-share-facebook -hoofoo-share-ui-button"><i class="fa fa-facebook" aria-hidden="true"></i></div>
+    <div class="-mob-share-twitter -hoofoo-share-twitter -hoofoo-share-ui-button"><i class="fa fa-twitter" aria-hidden="true"></i></div>
+    <div class="-hoofoo-share-more -hoofoo-share-ui-button -mob-share-open"><i class="fa fa-ellipsis-h" aria-hidden="true"></i></div>
+</div>
+<div class="-mob-share-ui" style="display: none">
+    <ul class="-mob-share-list">
+        <li class="-mob-share-weibo"><p>新浪微博</p></li>
+        <li class="-mob-share-weixin"><p>微信</p></li>
+        <li class="-mob-share-qzone"><p>QQ空间</p></li>
+        <li class="-mob-share-qq"><p>QQ好友</p></li>
+        <li class="-mob-share-tencentweibo"><p>腾讯微博</p></li>
+        <li class="-mob-share-renren"><p>人人网</p></li>
+        <li class="-mob-share-kaixin"><p>开心网</p></li>
+        <li class="-mob-share-douban"><p>豆瓣</p></li>
+        <li class="-mob-share-youdao"><p>有道云笔记</p></li>
+        <li class="-mob-share-mingdao"><p>明道</p></li>
+        <li class="-mob-share-pengyou"><p>朋友网</p></li>
+        <li class="-mob-share-facebook"><p>Facebook</p></li>
+        <li class="-mob-share-twitter"><p>Twitter</p></li>
+        <li class="-mob-share-pocket"><p>Pocket</p></li>
+        <li class="-mob-share-google"><p>Google+</p></li>
+        <li class="-mob-share-tumblr"><p>Tumblr</p></li>
+        <li class="-mob-share-instapaper"><p>Instapaper</p></li>
+        <li class="-mob-share-linkedin"><p>Linkedin</p></li>
+    </ul>
+    <div class="-mob-share-close">取消</div>
+</div>
+<div class="-mob-share-ui-bg"></div>
+<script id="-mob-share" src="http://f1.webshare.mob.com/code/mob-share.js?appkey=22ba4444d663e"></script>
+<!--MOB SHARE END-->
+      
     </div>
   </div>
 
@@ -544,12 +571,7 @@
           
   <div class="comments" id="comments">
     
-      <div id="disqus_thread">
-        <noscript>
-          Please enable JavaScript to view the
-          <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a>
-        </noscript>
-      </div>
+      <div id="uyan_frame"></div>
     
   </div>
 
@@ -882,93 +904,8 @@
 
 
   ﻿
-    <link rel="stylesheet" href="/disqus/dist/iDisqus.min.css" />
-    <script src="/disqus/dist/iDisqus.min.js"></script>
-    <script>
-        var emojiList = [{
-            code:'smile',
-            title:'笑脸',
-            unicode:'1f604'
-        },{
-            code:'mask',
-            title:'生病',
-            unicode:'1f637'
-        },{
-            code:'joy',
-            title:'破涕为笑',
-            unicode:'1f602'
-        },{
-            code:'stuck_out_tongue_closed_eyes',
-            title:'吐舌',
-            unicode:'1f61d'
-        },{
-            code:'flushed',
-            title:'脸红',
-            unicode:'1f633'
-        },{
-            code:'scream',
-            title:'恐惧',
-            unicode:'1f631'
-        },{
-            code:'pensive',
-            title:'失望',
-            unicode:'1f614'
-        },{
-            code:'unamused',
-            title:'无语',
-            unicode:'1f612'
-        },{
-            code:'grin',
-            title:'露齿笑',
-            unicode:'1f601'
-        },{
-            code:'heart_eyes',
-            title:'色',
-            unicode:'1f60d'
-        },{
-            code:'sweat',
-            title:'汗',
-            unicode:'1f613'
-        },{
-            code:'smirk',
-            title:'得意',
-            unicode:'1f60f'
-        }]; 
-        var disq = new iDisqus('comments', {
-            forum: 'cfortwang',
-            site: 'http://cfort.cn',
-            api: 'http://cfort.cn/disqus/api',
-            mode: 2,
-            badge: '博主',
-            timeout: 3000,
-            init: true,
-            emoji_list: emojiList
-        });
-        disq.count();
-    </script>
 
 
-
-
-  
-
-    
-      <script id="dsq-count-scr" src="https://cfortwang.disqus.com/count.js" async></script>
-    
-
-    
-      <script type="text/javascript">
-        var disqus_config = function () {
-          this.page.url = 'http://www.cfort.cn/2017/11/27/hello-world/';
-          this.page.identifier = '2017/11/27/hello-world/';
-          this.page.title = 'Hello World';
-        };
-        var d = document, s = d.createElement('script');
-        s.src = 'https://cfortwang.disqus.com/embed.js';
-        s.setAttribute('data-timestamp', '' + +new Date());
-        (d.head || d.body).appendChild(s);
-      </script>
-    
 
   
 
@@ -982,8 +919,20 @@
 
 
   
+    
+
+    
+      <!-- UY BEGIN -->
+      <script type="text/javascript" src="http://v2.uyan.cc/code/uyan.js?uid=2150599"></script>
+      <!-- UY END -->
+    
+  
 
 
+
+
+
+  
 
 
 
@@ -1448,6 +1397,14 @@
   
 
   
+
+  ﻿
+<script type="text/javascript">
+	//微信二维码点击背景关闭
+	$('body').delegate('.-mob-share-weixin-qrcode-bg','click', function(){
+ 		$(".-mob-share-weixin-qrcode-close").trigger("click");
+	}); 
+</script>
 
 </body>
 </html>
