@@ -14,6 +14,13 @@
 
 
 
+  
+  
+    
+    
+  <script src="/lib/pace/pace.min.js?v=1.0.2"></script>
+  <link href="/lib/pace/pace-theme-minimal.min.css?v=1.0.2" rel="stylesheet">
+
 
 
 
@@ -53,7 +60,7 @@
 <link href="/css/main.css?v=5.1.2" rel="stylesheet" type="text/css" />
 
 
-  <meta name="keywords" content="Hexo, NexT" />
+  <meta name="keywords" content="Hexo, NexT, cfort, 博客, 前端" />
 
 
 
@@ -64,7 +71,7 @@
 
 
 
-  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?v=5.1.2" />
+  <link rel="shortcut icon" type="image/x-icon" href="https://raw.githubusercontent.com/CfortWang/CfortWang.github.io/master/images/funny.ico?v=5.1.2" />
 
 
 
@@ -90,7 +97,7 @@
     root: '/',
     scheme: 'Mist',
     version: '5.1.2',
-    sidebar: {"position":"left","display":"post","offset":12,"offset_float":12,"b2t":false,"scrollpercent":false,"onmobile":false},
+    sidebar: {"position":"left","display":"post","offset":12,"offset_float":12,"b2t":false,"scrollpercent":true,"onmobile":true},
     fancybox: true,
     tabs: true,
     motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn"}},
@@ -220,16 +227,6 @@
           </a>
         </li>
       
-        
-        <li class="menu-item menu-item-commonweal">
-          <a href="/404/" rel="section">
-            
-              <i class="menu-item-icon fa fa-fw fa-heartbeat"></i> <br />
-            
-            公益404
-          </a>
-        </li>
-      
 
       
         <li class="menu-item menu-item-search">
@@ -302,9 +299,9 @@
 
       <h2 class="post-title">
         
-            <a class="post-title-link" href="/2017/11/26/mouseenter与mouseover的区别/" itemprop="url">
+            <a class="post-title-link" href="/2017/09/26/jQuery事件冒泡/" itemprop="url">
               
-                <span itemprop="name">mouseenter与mouseover的区别</span>
+                <span itemprop="name">jQuery事件冒泡</span>
               
             </a>
         
@@ -312,9 +309,9 @@
 
       <div class="post-meta">
         <time class="post-time" itemprop="dateCreated"
-              datetime="2017-11-26T21:52:19+08:00"
-              content="2017-11-26" >
-          11-26
+              datetime="2017-09-26T14:25:18+08:00"
+              content="2017-09-26" >
+          09-26
         </time>
       </div>
 
@@ -353,6 +350,8 @@
 
   <aside id="sidebar" class="sidebar">
     
+      <div id="sidebar-dimmer"></div>
+    
     <div class="sidebar-inner">
 
       
@@ -388,7 +387,7 @@
             
             <div class="site-state-item site-state-categories">
               <a href="/categories/index.html">
-                <span class="site-state-item-count">1</span>
+                <span class="site-state-item-count">2</span>
                 <span class="site-state-item-name">分类</span>
               </a>
             </div>
@@ -518,7 +517,7 @@
 
   <div class="powered-by">
 <i class="fa fa-user"></i><span id="busuanzi_container_site_pv">
-  访问量:<span id="busuanzi_value_site_pv"></span>
+  访问量:2<span id="busuanzi_value_site_pv"></span>
 </span>
 </div>
   
@@ -533,7 +532,7 @@
   <div class="theme-info">
   <div class="powered-by"></div>
   <i class="fa fa-pencil"></i>
-  <span class="post-count">博客全站共80字</span>
+  <span class="post-count">博客全站共624字</span>
 </div>
 
   <!--原代码，已注释
@@ -557,6 +556,8 @@
     
       <div class="back-to-top">
         <i class="fa fa-arrow-up"></i>
+        
+          <span id="scrollpercent"><span>0</span>%</span>
         
       </div>
     
@@ -641,72 +642,7 @@
 
 
 
-  
-    <link rel="stylesheet" href="/disqus/dist/iDisqus.min.css" />
-    <script src="/disqus/dist/iDisqus.min.js"></script>
-    <script>
-        var emojiList = [{
-            code:'smile',
-            title:'Ц��',
-            unicode:'1f604'
-        },{
-            code:'mask',
-            title:'����',
-            unicode:'1f637'
-        },{
-            code:'joy',
-            title:'����ΪЦ',
-            unicode:'1f602'
-        },{
-            code:'stuck_out_tongue_closed_eyes',
-            title:'����',
-            unicode:'1f61d'
-        },{
-            code:'flushed',
-            title:'����',
-            unicode:'1f633'
-        },{
-            code:'scream',
-            title:'�־�',
-            unicode:'1f631'
-        },{
-            code:'pensive',
-            title:'ʧ��',
-            unicode:'1f614'
-        },{
-            code:'unamused',
-            title:'����',
-            unicode:'1f612'
-        },{
-            code:'grin',
-            title:'¶��Ц',
-            unicode:'1f601'
-        },{
-            code:'heart_eyes',
-            title:'ɫ',
-            unicode:'1f60d'
-        },{
-            code:'sweat',
-            title:'��',
-            unicode:'1f613'
-        },{
-            code:'smirk',
-            title:'����',
-            unicode:'1f60f'
-        }]; 
-        var disq = new iDisqus('comments', {
-            forum: 'cfortwang',
-            site: 'http://cfort.cn',
-            api: 'http://cfort.cn/disqus/api',
-            mode: 2,
-            badge: '博主',
-            timeout: 3000,
-            init: true,
-            emoji_list: emojiList
-        });
-        disq.count();
-    </script>
-
+  ﻿
 
 
 
@@ -1196,6 +1132,14 @@
   
 
   
+
+  ﻿
+<script type="text/javascript">
+	//微信二维码点击背景关闭
+	$('body').delegate('.-mob-share-weixin-qrcode-bg','click', function(){
+ 		$(".-mob-share-weixin-qrcode-close").trigger("click");
+	}); 
+</script>
 
 </body>
 </html>
